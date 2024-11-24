@@ -37,7 +37,7 @@ thiserror = "1.0.69"
 derive_more = { version = "1.0.0", features = ["display"] }
 derivative = "2.2.0"
 once_cell = "1.19.0"
-tokio = { version = "1.39.2", default-features = false, features = ["sync"] }
+tokio = { version = "1.41.1", default-features = false, features = ["sync"] }
 rand = "0.8.5"
 reqwest-middleware = { version = "0.4.0", features = ["json"] }
 reqwest-retry = "0.7.0"
